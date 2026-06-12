@@ -1,9 +1,24 @@
-﻿.vs/
+# Pastas de build e temporárias
+.vs/
 bin/
 obj/
+artifacts/
+
+# Arquivos de usuário do Visual Studio
 *.user
 *.userosscache
 *.sln.docstates
+
+# Arquivos de log e backup
 *.bak
 *.tmp
 *.log
+*.binlog
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# Testes
+TestResult.xml
+[Tt]est[Rr]esult*/
